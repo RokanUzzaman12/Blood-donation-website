@@ -1,0 +1,106 @@
+body{
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+.header {
+	max-height: 100px;
+	background: black;
+}
+
+.image {
+	max-width: 300px;
+}
+.image img {
+	width: 100%;
+	max-height: 100px;
+}
+
+.firstline {
+	padding: 10px 0px 0px 0px;
+	text-align: center;
+	color: red;
+	margin: 0px;
+}
+.secondline {
+	padding: 10px 0px 5px 30px;
+	color: red;
+	margin: 0px;
+}
+.navi {
+	background-color: palegoldenrod;
+	margin: 5px 0 5px 0px;
+}
+.navi ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.navi ul li {
+	display: inline-block;
+	padding: 2px 25px 2px 25px;
+	background-color: #8D8D8D;
+}
+
+.navi ul li:hover {
+background-color: rgb(209, 188, 130);
+}
+.navi ul li a {
+	text-decoration: none;
+	color: black;
+}
+.slideshow {
+	width: 100%;
+	background-color: #000000;
+	padding: 35px 0px 35px 0px;
+	position: relative;
+}
+.slideshow img {
+	width: 96%;
+	margin: 0px auto;
+	display: block;
+	padding: 10px; 
+	border: 1px solid #414141;
+	max-height: 360px;
+}
+.slide_text {
+	position: absolute;
+	top: 70%;
+	left: 5%;
+	background-color: #0f0f0f;
+	width: 60%;
+	bottom: 7%;
+	opacity: 0.8;
+	display: block;
+}
+p.p5 {
+	font-size: 20px;
+	color: #c2c2c2;
+	padding-left: 16px;
+}
+.all_slider{
+	position: relative;
+}
+.button {
+	position: absolute;
+	right: 62px;
+	bottom: 8%;
+	height: 50px;
+	width: 50px;
+	background-color: #000000;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 12px;
+	opacity: 0.7;
+}
+a.pre {
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+
+}
+a.post{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}
