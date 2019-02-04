@@ -104,3 +104,55 @@ a.post{
 	color: white;
 	font-size: 30px;
 }
+.search_heading {
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+
+.search_heading h1 {
+	color: red;
+}
+
+.blood_group_box {
+	max-width: 301px;
+	height: 200px;
+	background: pink;
+	margin: 0 auto;
+	margin: 10px 0px 10px 0px;
+	border-radius: 25px;
+	position: relative;
+	
+}
+
+.blood_group_box::after{
+	content:"";
+	position: absolute;
+	width: 100%;
+	height: 0%;
+	background-color:black;
+	top: 0%;
+	left: 0%;
+	border-radius: 25px;
+	opacity: .9;
+	transition:.80s;
+
+}
+
+.blood_group_box:hover::after{
+	height: 0%;
+	transform: rotate(180deg);
+}
+.blood_group_box h1 {
+	line-height: 200px;
+	text-align: center;
+	color: red;
+	font-size: 120px;
+	display: block;
+}
+.blood_group_box p {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	color: green;
+	font-size: 39px;
+}
